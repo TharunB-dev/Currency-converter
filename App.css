@@ -1,0 +1,86 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color:black;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 15px;
+  text-align: center;
+  background:white;
+  color: black;
+  outline: none;
+}
+
+select {
+  width: 45%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  margin: 7px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background: #ff8c00;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top:20px;
+}
+
+button:hover {
+  background: white;
+  color:green;
+  border:1px solid green;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color:darkblue;
+}
+select:hover{
+  background:white;
+  color:black;
+}
+
+input:hover{
+  
+  background: rgba(255, 255, 255, 0.2);
+  color:black;
+}

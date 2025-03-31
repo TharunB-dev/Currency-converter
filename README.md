@@ -1,2 +1,2 @@
 # Currency-converter
-CURRENCY-onverter-react
+CURRENCY-converter-react
